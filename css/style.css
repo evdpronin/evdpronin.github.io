@@ -1,0 +1,77 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Poiret One', cursive;
+}
+.content {	
+	max-width: 510px;
+	margin: auto;
+	text-align: center;
+	color: white;	
+	padding: 10px;
+}
+#photo {
+	margin: 20px auto;
+	border-radius: 360px;
+	height: 240px;
+	border: 10px solid white;
+}
+ul, p, h1 {
+	margin:0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+ul {
+	font-size: 16px;
+	text-align: left;
+}
+p {
+	color: #ffee63;
+}
+h1 {
+	color: yellow;
+}
+#contacts {
+	position: relative;
+	z-index: 1;
+}
+a {		
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: baseline;
+	flex-wrap: wrap;
+	text-decoration: none;
+	width: auto;
+	height: 22px;	
+	color: white;
+	padding: 2px 3px;	
+	font-size: 20px;	
+	border-radius: 4px;
+}
+#button_vk {
+	background-color: #507299;
+	border: 2px solid #507299;
+	border-bottom-color: #2f5179;
+}
+#button_vk:hover, #button_telegram:hover, #button_mail:hover {
+	border: 2px solid #ffee63;	
+}
+#button_telegram {
+	background-color: #31A8DE;
+	border: 2px solid #31A8DE;
+	border-bottom-color: #137aa9;
+}
+#button_mail {
+	background-color: #F1F1F1;
+	border: 2px solid #EA4335;
+	color: black;
+}
+span { 
+	display: inline-block;
+	border-radius: 360px;
+	background-color: rgba(0,0,0,0.3);
+	padding: 3px 7px 7px 7px;
+	margin: 5px;
+}
