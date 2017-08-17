@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Flow_B';
+    src: url('fonts/Flow_B.eot');
+    src: url('fonts/Flow_B.eot') format('embedded-opentype'),
+         url('fonts/Flow_B.woff2') format('woff2'),
+         url('fonts/Flow_B.woff') format('woff'),
+         url('fonts/Flow_B.ttf') format('truetype'),
+         url('fonts/Flow_B.svg#Flow_B') format('svg');
+}

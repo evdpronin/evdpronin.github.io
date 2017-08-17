@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Flow';
+    src: url('fonts/Flow.eot');
+    src: url('fonts/Flow.eot') format('embedded-opentype'),
+         url('fonts/Flow.woff2') format('woff2'),
+         url('fonts/Flow.woff') format('woff'),
+         url('fonts/Flow.ttf') format('truetype'),
+         url('fonts/Flow.svg#Flow') format('svg');
+}

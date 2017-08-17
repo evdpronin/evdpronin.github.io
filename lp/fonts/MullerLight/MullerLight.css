@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'MullerLight';
+    src: url('fonts/MullerLight.eot');
+    src: url('fonts/MullerLight.eot') format('embedded-opentype'),
+         url('fonts/MullerLight.woff2') format('woff2'),
+         url('fonts/MullerLight.woff') format('woff'),
+         url('fonts/MullerLight.ttf') format('truetype'),
+         url('fonts/MullerLight.svg#MullerLight') format('svg');
+}

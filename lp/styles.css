@@ -1,0 +1,424 @@
+@import '/fonts/fonts.css' all;
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+}
+/* Header */
+.main-head {
+	height: 700px;
+	/* background-image: url(/img/bg-head.png); 
+	background-size: cover;
+	background-position: center; */
+	padding-top: 25px;
+}
+ .top-line {
+	display: flex;
+	flex-direction: row;
+	max-width: 1265px;
+	margin: auto;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.top-line div {
+    vertical-align: top;
+    font-family: 'MullerRegular';
+    font-size: 15px;
+    line-height: 1.2;
+    color: #e8e8e8;
+}
+.left {
+	display: flex;
+	text-align: left;
+	flex-grow: 1;
+}
+.social-head {
+	text-align: center;
+	flex-grow: 2;
+}
+.social-head img {
+	margin: 3px;
+}
+.block-btn-reserv {
+	flex-grow: 2;
+	text-align: right;
+}
+.btn-reserv {
+	display: inline-block;
+	text-decoration: none;
+	font-family: 'MullerLight';
+    font-size: 16px;
+    color: #e8e8e8;
+	text-align: center;
+	width: 200px;
+	height: 47px;
+	line-height: 3;
+	border: 1px solid #e8e8e8;
+	border-radius: 4px;
+}
+.welcome-block {
+	width: 766px;
+	font-family: 'MullerRegular';
+    font-size: 17px;
+    color: #e8e8e8;
+    text-align: center;
+	margin: 140px auto 132px auto;
+	line-height: 1.45;
+}
+.welcome-block img {
+	margin: -20px auto 30px auto;
+}
+.welcome-block h2 {
+	font-family: 'MullerLight';
+	font-size: 24px;
+	color: #e8e8e8;
+	font-weight: 100; 
+	margin-bottom: 0;
+}
+.btn-down {
+	text-align: center;
+	margin-bottom: 0;
+	padding-bottom: 0;
+} 
+/* Navigation menu*/
+
+.main-item {
+	margin: 14px 40px 0 0;
+}
+
+/* Second block - about*/
+.second-block {
+	background-color: #fff;
+	width: 100%;
+	background-attachment: fixed;
+}
+.about {
+	background-color: #fff;
+	height: 700px;
+	padding: 74px auto 60px auto;
+	display: flex;
+	flex-direction: row;
+	width: 1200px;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+}
+.about-left {
+	text-align: center;
+	width: 50vw;
+}
+.about-left p {
+	font-family: 'MullerLight';
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 1.56;
+	text-align: justify;
+	text-align-last: center;
+	color: #000;
+	width: 576px;
+	margin: 27px 10px auto auto;
+}
+.about-icons_line {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin: auto 10px auto auto;
+}
+.about-icons {
+	vertical-align: top;
+	padding: 0;
+	margin: 20px;
+}
+.about-icons figcaption {
+	font-family: 'MullerRegular';
+	font-size: 16px;
+	color: #000;
+	margin-top: 19px;
+	width: 90px;
+}
+.about-icons img {
+	width: 56px;
+	height: 56px;
+}
+.about-right {
+	width: 50vw;
+	height: auto;
+	padding-top: 30px;
+	margin: auto auto auto 0px;
+}
+.about-right img {
+	width:auto;
+	height: 660px;
+}
+#follow-me {
+	font-family: 'MullerMedium';
+	font-size: 16px;
+	vertical-align: top;
+	margin-top: 30px;
+	text-align: center;
+}
+#follow-me img {
+	margin:-10px 3px -10px 8px;;
+	width: 30px;
+	height: 30px;
+}
+
+/* Third block - slider */
+
+.third-block {
+	max-width: 100%;
+	background-color: #000;
+	height: 720px;
+}
+
+/* Fourth block - restoraunt menu */
+
+.fourth-block {
+	max-width: 100%;
+	padding: 80px 5px 0px 5px;
+	background-color: #fff;
+	height: 1440px;
+	text-align: center;
+	color: #000;
+}
+.block-head h1 {
+	font-family: 'Flow';
+	font-size: 48px;
+	font-weight: 400;
+	margin: 0px;
+}
+.block-head p {
+	font-family: 'MullerLight';
+	font-size: 16px;
+	line-height: 1.56;
+	font-weight: 600;
+	width: 575px;
+	color: #000;
+	text-align: justify;
+	text-align-last: center;
+	margin: 37px auto;
+}
+.block-head img {
+	width: 65px;
+	height: 2px;
+	margin: auto;
+}
+/* Catalog */
+.tabs_box {
+   background-color: #fff;
+   max-width: 1200px;
+   margin: auto;
+   text-align: center;
+}
+ 
+.tabs_menu {
+	padding: 0;
+	margin: auto;
+	text-align: center;
+	width: 700px;
+}
+ 
+.tabs_menu li {
+	display: inline;
+	list-style-type: none;
+	padding: 15px;
+}
+ 
+.tabs_menu li a {
+    display: inline;
+	text-decoration: none;
+	font-family: 'Flow';
+	font-size: 20px;
+	color: #999999;
+}
+ 
+.tabs_menu .active {
+	color: #000;
+	font-weight: 600;
+}
+.tab, #tab1, #tab2, #tab3, #tab4, #tab5, #tab6 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	height: 1000px;
+}
+#tab1, #tab2, #tab3, #tab5, #tab6{
+    display: none;
+}
+/* Card from catalog*/
+.card {
+	display: block;
+	width: 285px;
+	height: 475px;
+}
+.card img {
+	box-shadow: 0px 2px 38px 0 rgba(136, 125, 125, 0.75); 
+}
+
+/* Five block - Team */
+.five-block {
+	max-width: 100%;
+	background-color: #fff;
+	height: 960px;
+	text-align: center;
+	color: #000;
+	background-image: url(../img/bg-team.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 1920px 580px;
+}
+
+/* Sixth block - Events */
+.six-block {
+	max-width: 100%;
+	background-color: #fff;
+	height: 800px;
+	text-align: center;
+}
+.event img {
+	height: 467px;
+	width: 388px;
+}
+.event {
+	display: inline-block;
+	position: relative;
+	line-height: 25px;
+	margin-right: 14px;
+}
+.event p {
+	font-family: 'MullerLight';
+	font-size: 18px;
+	color: #cccccc;
+}
+.event h2 {
+	font-family: 'Flow';
+	font-size: 36px;
+	color: #fff;
+	margin: 6px;
+	font-weight: 300;
+}
+.event h3 {
+	font-family: 'Flow';
+	font-size: 24px;
+	color: #fff;
+	margin-top: 12px;
+	margin-bottom: 0;
+	font-weight: 300;
+}
+.event .text-event {
+	position: absolute;
+	left: 0;
+	bottom: 10px;
+	width: 100%;
+}
+.event img {
+	box-shadow: 0px 2px 38px 0 rgba(136, 125, 125, 0.75); 
+}
+/* Seven block - reservation table */
+.seven-block {
+	max-width: 100%;
+	text-align: center;
+	height: 766px;
+	background-image: url(/img/bg-reserv.png);
+	background-position: center;
+	background-size: cover;
+	padding-top: 84px;
+}
+#white,
+#white p {
+	color: #fff !important;
+}
+/* Eight block - map */
+.eight-block {
+	max-width: 100%;
+	text-align: center;
+	height: 450px;
+	background-color: #fff;
+}
+
+/* Footer */
+footer {
+	max-width: 100%;
+	text-align: center;
+	height: 120px;
+	background-color: #fff;
+	padding: 0;
+}
+.footer-container {
+	text-align: center;
+	max-width: 1185px;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	font-weight: 600;
+	padding-top: 37px;
+}
+.footer1 {
+	font-family: 'MullerRegular';
+    font-size: 15px;
+    line-height: 1.2;
+    color: #000;
+	text-align: left;
+}
+.footer3 a {
+	text-decoration: none;
+	font-family: 'MullerLight';
+    font-size: 16px;
+    color: #000;
+	text-align: center;
+	width: 200px;
+	height: 47px;
+	line-height: 3;
+	border: 1px solid #000;
+	border-radius: 4px;
+}
+.map-container {
+	box-shadow: 0px 2px 38px 0 rgba(136, 125, 125, 0.75); 	
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1200px;
+	z-index: 999;
+	position: relative;
+	top:-114px;
+}
+.map {
+	height: 569px;
+	width: 850px;
+}
+.contacts {
+	background-color: #fff;
+	height: 569px;
+	width: 465px;
+	padding:auto 48px auto 48px;
+	text-align: center;
+	font-family: 'MullerLight';
+	font-size: 16px;
+	color: #000;
+	vertical-align: bottom;
+	line-height: 25px;
+	font-weight: 500;
+}
+.contacts h4 {
+	font-weight: 900;
+	margin-bottom: 0px;
+	margin-top: 20px
+}
+.contacts img {
+	margin-top: 45px;
+	width: 182px;
+}
+.contacts a {
+	text-decoration: underline;
+	color: #000;
+	font-family: 'MullerLight';
+	font-size: 16px;
+	font-weight: 900;
+}

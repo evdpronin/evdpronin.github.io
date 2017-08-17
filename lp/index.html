@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+	<header class="main-head">
+			<script src="../js/jquery-3.2.1.min.js"></script>
+			<script src="../js/jquery.backgroundvideo.min.js"></script>
+			<script>
+				$(document).ready(function () {
+					var videobackground = new $.backgroundVideo($('body'), {
+						"align": "centerXY",
+						"width": 1280,
+						"height": 720,
+						"path": "media/",
+						"filename": "cloud",
+						"types": ["mp4", "ogg", "webm"]
+					});
+				});
+			</script>
+			<div class="top-line">
+			<div class="left"><a class="main-item" href="#"><img src="img/nav-menu.png"></a>
+			<div class="adress">8 (3842) 44-99-66 <br>г. Кемерово, пр. Октябрьский 2б.<br> бизнес центр "Маяк Плаза"</div></div>
+			<div class="social-head">
+			Присоединяйтесь:<br>
+				<a href="#"><img src="img/social/instagram.png"></a>
+				<a href="#"><img src="img/social/facebook.png"></a>
+				<a href="#"><img src="img/social/vk.png"></a>
+				<a href="#"><img src="img/social/twitter.png"></a>
+			</div>
+			<div class="block-btn-reserv">
+			<a href="#7" class="btn-reserv">Бронирование</a>
+			</div>
+		</div>
+		<div class="welcome-block">
+			<h2>Добро пожаловать в</h2><br>
+			<img src="img/logo-head.png" alt="Millton"><br>
+			Мы создали бар, в котором тесно соседствуют вкусная кухня и уникальная коктейльная карта
+			Каждый бар в своем названии несет историю, приходите к нам и узнайте у наших барменов какую историю несет наше название
+		</div>
+		<div class="btn-down">
+			<a href="#2"><img src="img/btn-down.png"></a>
+		</div>
+	</header>
+	<section class="second-block" id="2">
+		<div class="about">
+		<div class="about-left">
+			<div class="about-icons_line">
+			<figure class="about-icons">
+			<img src="img/icons/vape.png" alt="Vape-бар">
+				<figcaption>VAPE-бар</figcaption></figure>
+			<figure class="about-icons">
+			<img src="img/icons/hookah.png" alt="Кальяны">
+				<figcaption>Кальяны</figcaption></figure>
+			<figure class="about-icons">
+			<img src="img/icons/drink.png" alt="Коктейли">
+				<figcaption>Коктейли</figcaption></figure>
+			<figure class="about-icons">
+			<img src="img/icons/eat.png" alt="Кухня">
+				<figcaption>Кухня</figcaption></figure>
+			</div>
+		 <br><img src="img/logo-min.png" alt="Millton">
+		 <p>Это место, в которое хочется возвращаться снова и снова. Бар, в котором встречаются друзья и заводятся знакомства. К нам
+		приходят люди, чтобы отдохнуть от городской суеты, выпить бокал вина под вкусный стейк или попробовать дымный кальян и
+		авторские коктейли от сплоченной команды барменов. Наш интерьер любят фотографировать, подача блюд – произведение искусства.
+		Бармены – настоящие гуру гостеприимства и просто приятные парни, которые всегда готовы помочь с выбором напитков и просто
+		обсудить с Вами любые насущные темы. </p><br>
+		<p>Milton – это не просто бар, в котором приятно провести вечер, но и прекрасное место,
+		где можно вкусно и недорого пообедать в будни. Наши гости – наши друзья, а друзьям рады в любое время!
+		 </p>	
+		 <p id="follow-me">Присоединяйтесь к нам: 
+		<a href="#"><img src="img/social/instagram-black.png" alt=""></a>
+		<a href="#"><img src="img/social/fb-black.png" alt=""></a>
+		<a href="#"><img src="img/social/vk-black.png" alt=""></a>
+		<a href="#"><img src="img/social/twitter-black.png" alt=""></a>
+		</div>
+		<div class="about-right">
+			<img src="img/block-about.png" alt="About Milton">
+		</div>
+		</div>
+	</section>
+	<section class="third-block" id="3">
+		
+	</section>
+	<section class="fourth-block" id="4">
+		<div class="block-head">
+			<h1>Меню</h1>
+			<img src="img/hr-line.png">
+			<p>Разнообразие вкусов и мастерство подачи... мы никогда не останавливаем работу над нашим меню, чтобы сделать его по-настоящему
+				эффектным - вкусным и красивым</p>
+		</div>
+		<script src="../js/jquery.catalogmenu.js"></script>
+		<div class="tabs_box">
+				<ul class="tabs_menu">
+					<li><a href="#tab1">Бургеры</a></li>
+					<li><a href="#tab2">Салаты</a></li>
+					<li><a href="#tab3">Гриль</a></li>
+					<li><a href="#tab4" class="active">Закуски</a></li>
+					<li><a href="#tab5">Десерты</a></li>
+					<li><a href="#tab6">Коктейли</a></li>
+				</ul>
+				<div class="tab" id="tab1">
+					<p>Контент первой вкладки...</p>
+				</div>
+				<div class="tab" id="tab2">
+					<p>Контент второй вкладки...</p>
+				</div>
+				<div class="tab" id="tab3">
+					<p>Контент третьей вкладки...</p>
+				</div>
+				<div class="tab" id="tab4">
+					<div class="card">
+						<img src="media/catalog/card.png">
+						<h3>Тако с курицей</h3>
+						<p>Стейк из свиной шеи в маринаде на основе апельсина и меда Соус: сладкий чили с дольками апельсина
+						</p>
+						<p id="cost">240 г. / 20 г. / <span>270 РУБ.</span></p>
+					</div>
+					<div class="card">
+						<img src="media/catalog/card2.png">
+						<h3>Тако с курицей</h3>
+						<p>Стейк из свиной шеи в маринаде на основе апельсина и меда Соус: сладкий чили с дольками апельсина
+						</p>
+						<p id="cost">240 г. / 20 г. / <span>270 РУБ.</span></p>
+					</div>
+					<div class="card">
+						<img src="media/catalog/card.png">
+						<h3>Тако с курицей</h3>
+						<p>Стейк из свиной шеи в маринаде на основе апельсина и меда Соус: сладкий чили с дольками апельсина
+						</p>
+						<p id="cost">240 г. / 20 г. / <span>270 РУБ.</span></p>
+					</div>
+					<div class="card">
+						<img src="media/catalog/card2.png">
+						<h3>Тако с курицей</h3>
+						<p>Стейк из свиной шеи в маринаде на основе апельсина и меда Соус: сладкий чили с дольками апельсина
+						</p>
+						<p id="cost">240 г. / 20 г. / <span>270 РУБ.</span></p>
+					</div>
+					<div class="card">
+						<img src="media/catalog/card.png">
+						<h3>Тако с курицей</h3>
+						<p>Стейк из свиной шеи в маринаде на основе апельсина и меда Соус: сладкий чили с дольками апельсина
+						</p>
+						<p id="cost">240 г. / 20 г. / <span>270 РУБ.</span></p>
+					</div>
+					<div class="card">
+						<img src="media/catalog/card2.png">
+						<h3>Тако с курицей</h3>
+						<p>Стейк из свиной шеи в маринаде на основе апельсина и меда Соус: сладкий чили с дольками апельсина
+						</p>
+						<p id="cost">240 г. / 20 г. / <span>270 РУБ.</span></p>
+					</div>
+					<div class="card">
+						<img src="media/catalog/card.png">
+						<h3>Тако с курицей</h3>
+						<p>Стейк из свиной шеи в маринаде на основе апельсина и меда Соус: сладкий чили с дольками апельсина
+						</p>
+						<p id="cost">240 г. / 20 г. / <span>270 РУБ.</span></p>
+					</div>
+					<div class="card">
+						<img src="media/catalog/card2.png">
+						<h3>Тако с курицей</h3>
+						<p>Стейк из свиной шеи в маринаде на основе апельсина и меда Соус: сладкий чили с дольками апельсина
+						</p>
+						<p id="cost">240 г. / 20 г. / <span>270 РУБ.</span></p>
+					</div>
+					</div>
+				<div class="tab" id="tab5">
+						<p>Контент третьей вкладки...</p>
+				</div>
+				<div class="tab" id="tab6">
+					<p>Контент шестой вкладки...</p>
+				</div>
+			</div>
+	</section>
+	<section class="five-block" id="5">
+		<div class="block-head">
+			<h1>Команда</h1>
+			<img src="img/hr-line.png">
+			<p>Гуру гостеприимства, смешивания дринков и душевных разговоров. Все, что мы делаем - делаем искренне и с любовью
+			</p>
+		</div>
+	</section>
+	<section class="six-block" id="6">
+		<div class="block-head">
+			<h1>События</h1>
+			<img src="img/hr-line.png">
+			<p>Мы рады любым гостям: если вы музыкант, художник или просто творческая личность, мы с удовольствием предоставим площадку
+				для реализации ваших талантов
+			</p>
+		</div>
+		<div class="events-block">
+			<div class="event"><img src="/media/events/n1.png"><div class="text-event"><p>02 августа<h2>DJ Wild Il</h2><p>20:00</p></div></div>
+			<div class="event"><img src="/media/events/n2.png"><div class="text-event"><p>07 августа<h2>Мастер-класс</h2><h3>по мобильной фотографии</h3><p>12:00</p></div></div>
+			<div class="event"><img src="/media/events/n3.png"><div class="text-event"><p>28 августа<h2>Выставка</h2><h3>граффити и стрит-арт</h3><p>20:00</p></div></div>
+		</div>
+	</section>
+	<section class="seven-block" id="7">
+		<div class="block-head" id="white">
+			<h1>Забронируйте столик</h1>
+			<img src="img/hr-line-white.png">
+			<p>С удовольствием “придержим” его для вас
+			</p>
+		</div>
+	</section>
+	<section class="eight-block" id="8">
+		<div class="map-container">
+			<div class="map" id="map">
+				<script>
+					function initMap() {
+						var uluru = { lat: 55.349622, lng: 86.105100 };
+						var map = new google.maps.Map(document.getElementById('map'), {
+							zoom: 18,
+							center: uluru
+							
+						});
+						var marker = new google.maps.Marker({
+								position: uluru,
+								map: map,
+								icon: {
+									url: "/img/marker.png",
+									scaledSize: new google.maps.Size(64, 64)
+								}
+							});
+					}
+				</script>
+				<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDPvtWc6kvMdA6d8qyCj-0o364a2KHDAE&callback=initMap">
+
+				</script>
+				</div>
+				<div class="contacts">
+					<img src="/img/logo-min.png"><br>
+					<p>
+						<h4>Часы работы:</h4>
+						пн-чт 12:00 - 02:00<br>
+						пт-сб 12:00 - 04:00<br> 
+						вс 12:00 - 02:00</P>
+					<p>
+						<h4>Телефон для бронирования</h4>
+						8 (3842) 44-99-66</p>
+					<p><h4>Адрес:</h4> пр. Октябрьский 2б, бизнес-центр "Маяк Плаза" </p>
+					<p><h4>Вход:</h4> До 21:00 через центральный вход в бизнес-центр. С 21:00 через
+						вход, расположенный слева здания бизнес-центра</p>
+						<a href="https://www.google.ru/maps/dir//''/@55.3492229,86.0349591,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x0:0x7902d4681f777ba0!2m2!1d86.105171!2d55.349243" target="_blank">Посмотреть маршрут</a>
+				</div>
+				</div>
+				</section>
+				<footer>
+					<div class="footer-container">
+						<div class="footer1" id="left-footer">
+							8 (3842) 44-99-66 <br>г. Кемерово, пр. Октябрьский 2б.<br> бизнес центр "Маяк Плаза"
+						</div>
+						<div class="footer2" id="center-footer">
+				<img src="img/logo-min.png">
+				</div>
+				<div class="footer3" id="right-footer">
+				<a href="#7" class="btn-reserv" id="black">Бронирование</a>
+				</div>
+			</div>
+	</footer>
+	<div class="hidden"></div>
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+	
+</body>
+</html>
